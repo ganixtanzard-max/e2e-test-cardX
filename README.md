@@ -3,7 +3,7 @@
 Cypress tests for demo (UI and API)
 
 ## Requirements
-- Node.js >= 18
+- Node.js = 24.9.0
 - Git
 
 ## Setup
@@ -13,8 +13,18 @@ cd e2e-test-cardX
 npm ci
 npm run verify
 
+```
 Run Tests
-Interactive (เปิด Cypress GUI):
-npm run cy:open
-Headless (CI mode):
+(Cypress GUI):
+```bash
+- npm run cy:open 
+```
+- เลือก E2E Testing
+- เลือก chrome
+- กด Start E2E Testing Chrome
+  - google (จะเป็นตัว UI ที่จะค้นหาข้อมูล ผมลองหน่วงเวลาแล้วแต่ยังติด robot อยู่ครับเลยหน่วงเวลาให้ manual มือเองไปก่อน )
+  - university (จะเป็นตัว API มีอยู๋ 2 เคสที่รันครับ เคสแรกจะโชว์ชื่อมหาลัยที่อยู่ในไทย เคสที่สองจะเป็นที่อยู่ในไทย และมีชื่อ Asia ครับ)
+
+(CI mode):
+```bash
 npm run cy:run
