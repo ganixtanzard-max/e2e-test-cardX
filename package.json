@@ -1,0 +1,20 @@
+{
+  "name": "e2e-test-cardx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "verify": "cypress verify",
+  "cy:open": "cypress open",
+  "cy:run": "cypress run",
+  "cy:run:chrome": "cypress run --browser chrome",
+  "test": "npm run cy:run"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.3.0"
+  }
+}
