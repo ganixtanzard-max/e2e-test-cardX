@@ -8,7 +8,7 @@ Cypress tests for demo (UI and API)
 
 ## Setup
 ```bash
-git clone <REPO_URL>.git
+git clone https://github.com/ganixtanzard-max/e2e-test-cardX.git
 cd e2e-test-cardX
 npm ci
 npm run verify
