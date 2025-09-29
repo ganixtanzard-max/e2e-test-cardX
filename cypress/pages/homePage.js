@@ -2,7 +2,7 @@ import {google} from "../locator/google.locator"
 import data from "../fixtures/dataGoogle.json"
 
 
-class HomePage {
+class homepage {
     search(){
 cy.get(google.textboxSearch)
     .clear()
@@ -18,4 +18,4 @@ cy.get('h3', { timeout: 30000 })
 
 }
 
-export default new HomePage()
+export default new homepage()

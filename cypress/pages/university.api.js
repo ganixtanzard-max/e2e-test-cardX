@@ -1,4 +1,4 @@
-class University {
+class university {
 
 searchByCountry(country) {
     cy.request({
@@ -33,4 +33,4 @@ searchByCountry(country) {
   }
 }
 
-export default new University()
+export default new university()
